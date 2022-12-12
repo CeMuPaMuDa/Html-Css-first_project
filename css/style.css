@@ -1,6 +1,14 @@
+/* ALL PAGES */
 /* Basic styles */
 * {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 
 p {
@@ -48,4 +56,51 @@ textarea {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+/* footer */
+.footer-top_title {
+  width: 340px;
+}
+.footer-top_text {
+  width: 495px;
+}
+.footer-bottom_list {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-bottom_item {
+  list-style-type: none;
+}
+/* INDEX Pages */
+/* Top part */
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item {
+  list-style-type: none;
+}
+.menu-link {
+  text-decoration: none;
+}
+.top-text_title {
+  width: 510px;
+}
+.top-text_content {
+  width: 425px;
+}
+/* what-we-do */
+.what-we-do_cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card-title,
+.card-text {
+  width: 359px;
+}
+/* CONTACT PAGE */
+.contact {
+  display: flex;
+  justify-content: space-around;
 }
