@@ -28,6 +28,10 @@ h2 {
 h3 {
   font-size: 36px;
   text-align: center;
+  font-weight: 300;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #000000;
 }
 h4 {
   font-size: 20px;
@@ -137,13 +141,48 @@ textarea {
   padding: 15px 50px;
 }
 /* what-we-do */
+.what-we-do {
+  margin-top: 64px;
+}
 .what-we-do_cards {
   display: flex;
   justify-content: space-between;
+  margin-top: 64px;
 }
-.card-title,
-.card-text {
+.card {
+  padding: 44px 32px;
+
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
   width: 359px;
+}
+.card-img {
+  align-self: center;
+}
+
+.card-title {
+  margin-top: 50px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+.card-text {
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  margin-top: 15px;
+}
+.card_link {
+  margin-top: 28px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5a98d0;
 }
 /* CONTACT PAGE */
 .contact {
