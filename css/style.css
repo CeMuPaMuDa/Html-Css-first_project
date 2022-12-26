@@ -108,6 +108,22 @@ textarea {
   letter-spacing: 0.05em;
   opacity: 0.6;
 }
+.top-text_link {
+  margin-top: 71px;
+  display: inline-block;
+  text-decoration: none;
+  background: #5a98d0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 15px 50px;
+  margin-bottom: 190px;
+}
 /* what-we-do */
 .what-we-do_cards {
   display: flex;
