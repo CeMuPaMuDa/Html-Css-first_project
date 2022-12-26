@@ -74,6 +74,12 @@ textarea {
     #ebf3fb 8.84%,
     rgba(152, 195, 232, 0) 31.12%
   );
+  height: 768px;
+}
+.top-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .menu {
   margin-top: 34px;
@@ -93,6 +99,13 @@ textarea {
 }
 .menu-img_second {
   padding: 5px 0;
+}
+.top-text {
+  flex-grow: 1;
+  background-image: url(../img/top_bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-bottom: 94px;
 }
 .top-text_title {
   margin-top: 115px;
@@ -122,7 +135,6 @@ textarea {
   letter-spacing: 0.04em;
   color: #ffffff;
   padding: 15px 50px;
-  margin-bottom: 190px;
 }
 /* what-we-do */
 .what-we-do_cards {
