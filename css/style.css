@@ -1,44 +1,39 @@
 /* ALL PAGES */
 /* Basic styles */
 * {
-  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
-
+body {
+  font-family: "Roboto", sans-serif;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
 }
-
 p {
   font-size: 16px;
   line-height: 26px;
   color: #1f3f68;
 }
-
 h1 {
   font-style: 64px;
   color: #1f3f68;
 }
-
 h2 {
   font-weight: 500;
   font-size: 44px;
   text-align: center;
 }
-
 h3 {
   font-size: 36px;
   text-align: center;
 }
-
 h4 {
   font-size: 20px;
   line-height: 30px;
   color: #1f3f68;
 }
-
 input,
 textarea {
   border: 1px solid #356ead;
@@ -57,7 +52,6 @@ textarea {
   color: #ffffff;
   text-transform: uppercase;
 }
-
 /* footer */
 .footer-top_title {
   width: 340px;
@@ -74,9 +68,22 @@ textarea {
 }
 /* INDEX Pages */
 /* Top part */
+.top {
+  background: linear-gradient(
+    0deg,
+    #ebf3fb 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
+}
+.menu {
+  margin-top: 34px;
+  height: 48px;
+}
+
 .menu-list {
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 .menu-item {
   list-style-type: none;
@@ -84,11 +91,22 @@ textarea {
 .menu-link {
   text-decoration: none;
 }
+.menu-img_second {
+  padding: 5px 0;
+}
 .top-text_title {
-  width: 510px;
+  margin-top: 115px;
+  width: 504px;
+  font-weight: 300;
+  line-height: 74px;
+  letter-spacing: 0.04em;
 }
 .top-text_content {
+  margin-top: 32px;
   width: 425px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
 }
 /* what-we-do */
 .what-we-do_cards {
