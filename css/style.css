@@ -101,12 +101,42 @@ footer {
   opacity: 0.4;
   border: 1px solid #ffffff;
 }
+.footer-bottom {
+  margin-top: 64px;
+  padding-bottom: 64px;
+}
 .footer-bottom_list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 64px;
 }
 .footer-bottom_item {
   list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  flex-grow: 1;
+  flex-basis: 33.3333%;
+}
+.footer-bottom_item:first-child::before {
+  content: "A:";
+  margin-right: 19px;
+}
+.footer-bottom_item:nth-child(2)::before {
+  content: "T:";
+  margin-right: 19px;
+}
+.footer-bottom_item:last-child::before {
+  content: "E:";
+  margin-right: 19px;
+}
+.copyright {
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.4;
 }
 /* INDEX Pages */
 /* Top part */
