@@ -184,6 +184,21 @@ textarea {
   letter-spacing: 0.05em;
   color: #5a98d0;
 }
+
+/* projects */
+.projects {
+  margin-top: 64px;
+}
+
+.projects-text {
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+  width: 66%;
+  margin: 32px auto 64px;
+}
+
 /* CONTACT PAGE */
 .contact {
   display: flex;
