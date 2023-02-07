@@ -57,11 +57,49 @@ textarea {
   text-transform: uppercase;
 }
 /* footer */
+footer {
+  background: #316099;
+  margin-top: 112px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top_info {
+  padding-top: 91px;
+  margin-bottom: 96px;
+}
+.footer-top_btn {
+  margin: auto 0;
+}
 .footer-top_title {
   width: 340px;
+  font-weight: 400;
+  color: #ffffff;
 }
 .footer-top_text {
   width: 495px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-top: 32px;
+}
+.footer-top_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 80px;
+  background: #5a98d0;
+}
+.footer-line {
+  opacity: 0.4;
+  border: 1px solid #ffffff;
 }
 .footer-bottom_list {
   display: flex;
