@@ -198,7 +198,39 @@ textarea {
   width: 66%;
   margin: 32px auto 64px;
 }
+.project_item {
+  position: relative;
+  flex-grow: 1;
+}
+.project_item-mini {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
 
+.project_item-text {
+  position: absolute;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.project_item-max .project_item .project_item-text {
+  top: 64px;
+  right: 64px;
+  font-size: 32px;
+}
+.project_item-mini .project_item .project_item-text {
+  top: 32px;
+  left: 32px;
+  font-size: 28px;
+}
+.project_item-mini .project_item:first-child {
+  margin-right: 32px;
+}
+.project-image {
+  width: 100%;
+}
 /* CONTACT PAGE */
 .contact {
   display: flex;
